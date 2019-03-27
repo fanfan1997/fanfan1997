@@ -18,7 +18,7 @@
               <ul class="navigation">
                 <li class="navigation__item"><a href="/#blog" title="{{site.blog_button.description}}" class="blog-button">{{site.blog_button.title}}</a></li>
                 {% for item in site.nav %}
-                  <li class="navigation__item"><a href="{{item.url}}" target="_blank" title="{{item.description}}">{{item.title}}</a></li>
+                  <li class="navigation__item"><a href="" target="" title="{{item.description}}" onclick="clickHandler()">{{item.title}}</a></li>
                 {% endfor %}
               </ul>
             </nav>
@@ -36,3 +36,8 @@
     {% endif %}
   </div>
 </header>
+<script type="text/javascript">
+  function clickHandler() {
+    alert("敬请期待~");
+  }
+</script>
