@@ -19,6 +19,9 @@ cover_color: red
 blog_button:
     title: Blog
     description: Visit blog
+life_button:
+    title: Life
+    description: Visit life
 
 # Navigation buttons in the front page.
 nav:
