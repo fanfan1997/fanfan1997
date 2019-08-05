@@ -59,3 +59,5 @@ gitalk:
    clientID: c10a240ff9c342206b7e
    clientSecret: 368e04a16d83c20ba308b2c5eabee5d87f061390
    admin: 1210958801
+
+# 启动:bundle exec jekyll serve
